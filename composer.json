@@ -1,0 +1,22 @@
+{
+    "name": "erik/tmdb-scheduler",
+    "type": "project",
+    "authors": [
+        {
+            "name": "erik",
+            "email": "erikpolachek@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/console": "^5.0",
+        "laminas/laminas-servicemanager": "^3.4",
+        "laminas/laminas-config-aggregator-modulemanager": "^1.0",
+        "guzzlehttp/guzzle": "^7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Erik\\ErikTMDBCron\\": "src/",
+            "Erik\\ErikTMDBClient\\": "src/ErikTMDBClient/src/"
+        }
+    }
+}
